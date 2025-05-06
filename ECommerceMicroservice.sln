@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{3316C324-07C9-4052-A673-143F330BADCF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Basket", "Basket", "{4579802A-314E-4557-AEF8-E3B03B583C30}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Order", "Order", "{88B334F2-3623-4D99-8B05-E2E9E8DFBC28}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Discount", "Discount", "{E6947895-556D-4CCA-A737-C0383666BEC7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frontends", "Frontends", "{47E65664-E7C9-4AED-8611-7661CC3C167F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IdentityServer", "IdentityServer", "{EF4689D5-EE9B-45C6-BF14-287E707B31D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce.Catalog", "Services\Catalog\ECommerce.Catalog\ECommerce.Catalog.csproj", "{3D206F8C-C84F-48D2-9BA2-40C6F9486B05}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3D206F8C-C84F-48D2-9BA2-40C6F9486B05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D206F8C-C84F-48D2-9BA2-40C6F9486B05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D206F8C-C84F-48D2-9BA2-40C6F9486B05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D206F8C-C84F-48D2-9BA2-40C6F9486B05}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3316C324-07C9-4052-A673-143F330BADCF} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{4579802A-314E-4557-AEF8-E3B03B583C30} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{88B334F2-3623-4D99-8B05-E2E9E8DFBC28} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{E6947895-556D-4CCA-A737-C0383666BEC7} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{3D206F8C-C84F-48D2-9BA2-40C6F9486B05} = {3316C324-07C9-4052-A673-143F330BADCF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {812AA7C4-01AB-4488-A5D9-811A5D0B6A4F}
+	EndGlobalSection
+EndGlobal
