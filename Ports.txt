@@ -1,2 +1,5 @@
 Catalog  => https://localhost:7000
 Discount => https://localhost:7001
+Basket   => https://localhost:7002
+Order    => https://localhost:7003
+Message  => https://localhost:7004
