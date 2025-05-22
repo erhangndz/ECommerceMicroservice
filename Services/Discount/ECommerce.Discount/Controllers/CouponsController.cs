@@ -1,12 +1,14 @@
 ﻿using ECommerce.Discount.Context;
 using ECommerce.Discount.DTOs;
 using ECommerce.Discount.Entities;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace ECommerce.Discount.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class CouponsController(AppDbContext _context) : ControllerBase

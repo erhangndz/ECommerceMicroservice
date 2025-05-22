@@ -31,7 +31,7 @@ namespace ECommerce.IdentityServer
 
         };
 
-
+        
 
         public static IEnumerable<ApiScope> ApiScopes =>
             new ApiScope[]
