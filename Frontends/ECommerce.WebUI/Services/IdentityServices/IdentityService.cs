@@ -135,5 +135,11 @@ namespace ECommerce.WebUI.Services.IdentityServices
 
             return true;
         }
+
+        public async Task SignoutAsync()
+        {
+            await _contextAccessor.HttpContext.SignOutAsync();
+            
+        }
     }
 }
