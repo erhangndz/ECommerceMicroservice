@@ -1,9 +1,12 @@
-﻿using ECommerce.WebUI.DTOs.CatalogDtos.CategoryDtos;
+﻿using System.Net.Http.Headers;
+using ECommerce.WebUI.DTOs.CatalogDtos.CategoryDtos;
+using Microsoft.AspNetCore.Http.Headers;
 
 namespace ECommerce.WebUI.Services.CatalogServices.CategoryServices
 {
     public class CategoryService(HttpClient _client) : ICategoryService
     {
+  
         public async Task CreateAsync(CreateCategoryDto categoryDto)
         {
             await _client.PostAsJsonAsync("categories", categoryDto);
